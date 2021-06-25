@@ -14,5 +14,9 @@
 - (BOOL)shouldPropagateMouseUpEvent:(NSEvent*)theEvent;
 - (BOOL)shouldPropagateMouseDraggedEvent:(NSEvent*)theEvent;
 
+@property BOOL hasReplyButton NS_AVAILABLE(10_9, NA);
+
+
+
 @end
 
