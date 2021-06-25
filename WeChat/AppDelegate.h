@@ -10,8 +10,9 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
-- (void)setActiveConversationAtIndex: (NSString*)index;
-
+- (void)setActiveConversationAtIndex:(NSString*)index;
+- (BOOL)shouldPropagateMouseUpEvent:(NSEvent*)theEvent;
+- (BOOL)shouldPropagateMouseDraggedEvent:(NSEvent*)theEvent;
 
 @end
 
