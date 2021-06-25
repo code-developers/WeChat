@@ -16,7 +16,7 @@
 
 @property BOOL hasReplyButton NS_AVAILABLE(10_9, NA);
 
-
+@property (copy) NSString *responsePlaceholder NS_AVAILABLE(10_9, NA);
 
 @end
 
