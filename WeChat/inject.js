@@ -40,3 +40,7 @@ div.app.three, div.app.two { top: 0px; width: 100%; height: 100%; } \
 .avatar-image { -webkit-transform: translate3d(0,0,0); } \
 ';
 document.documentElement.appendChild(styleAdditions);
+
+function activateSearchField () {
+    document.querySelector('input.input-search').focus();
+}
