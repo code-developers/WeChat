@@ -18,5 +18,7 @@
 
 @property (copy) NSString *responsePlaceholder NS_AVAILABLE(10_9, NA);
 
+@property (readonly) NSAttributedString *response NS_AVAILABLE(10_9, NA);
+
 @end
 
