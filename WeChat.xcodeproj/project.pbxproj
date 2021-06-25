@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9FEF2BAC2685E3A9004AFACE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF2BAB2685E3A9004AFACE /* AppDelegate.m */; };
-		9FEF2BAF2685E3A9004AFACE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF2BAE2685E3A9004AFACE /* ViewController.m */; };
 		9FEF2BB12685E3AA004AFACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FEF2BB02685E3AA004AFACE /* Assets.xcassets */; };
 		9FEF2BB42685E3AA004AFACE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEF2BB22685E3AA004AFACE /* Main.storyboard */; };
 		9FEF2BB72685E3AA004AFACE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF2BB62685E3AA004AFACE /* main.m */; };
@@ -38,8 +37,6 @@
 		9FEF2BA72685E3A9004AFACE /* WeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FEF2BAA2685E3A9004AFACE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9FEF2BAB2685E3A9004AFACE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9FEF2BAD2685E3A9004AFACE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9FEF2BAE2685E3A9004AFACE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9FEF2BB02685E3AA004AFACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FEF2BB32685E3AA004AFACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FEF2BB52685E3AA004AFACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -104,8 +101,6 @@
 			children = (
 				9FEF2BAA2685E3A9004AFACE /* AppDelegate.h */,
 				9FEF2BAB2685E3A9004AFACE /* AppDelegate.m */,
-				9FEF2BAD2685E3A9004AFACE /* ViewController.h */,
-				9FEF2BAE2685E3A9004AFACE /* ViewController.m */,
 				9FEF2BB02685E3AA004AFACE /* Assets.xcassets */,
 				9FEF2BB22685E3AA004AFACE /* Main.storyboard */,
 				9FEF2BB52685E3AA004AFACE /* Info.plist */,
@@ -264,7 +259,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FEF2BAF2685E3A9004AFACE /* ViewController.m in Sources */,
 				9FEF2BB72685E3AA004AFACE /* main.m in Sources */,
 				9FEF2BAC2685E3A9004AFACE /* AppDelegate.m in Sources */,
 			);
