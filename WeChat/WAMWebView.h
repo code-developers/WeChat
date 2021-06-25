@@ -6,3 +6,8 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
+#import <WebKit/WebKit.h>
+
+@interface WAMWebView : WKWebView
+@end
+
