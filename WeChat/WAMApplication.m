@@ -8,3 +8,17 @@
 
 #import "WAMApplication.h"
 #import "AppDelegate.h"
+
+@implementation WAMApplication
+- (void)sendEvent:(NSEvent *)theEvent {
+    if (theEvent.type == NSLeftMouseUp) {
+        if ([((AppDelegate*)self.delegate) shouldPropagateMouseUpEvent:theEvent]) {
+            [super sendEvent:theEvent];
+        }
+        return;
+    }
+    
+}
+
+
+@end
