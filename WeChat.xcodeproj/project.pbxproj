@@ -17,6 +17,7 @@
 		9FEF2BDD2685E788004AFACE /* inject.js in Resources */ = {isa = PBXBuildFile; fileRef = 9FEF2BDC2685E788004AFACE /* inject.js */; };
 		9FEF2BDF2685E791004AFACE /* noConnection.html in Resources */ = {isa = PBXBuildFile; fileRef = 9FEF2BDE2685E791004AFACE /* noConnection.html */; };
 		9FEF2BE12685E797004AFACE /* jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = 9FEF2BE02685E796004AFACE /* jquery.js */; };
+		9FEF2BE42685E9E8004AFACE /* WAMApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF2BE32685E9E8004AFACE /* WAMApplication.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		9FEF2BDE2685E791004AFACE /* noConnection.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = noConnection.html; sourceTree = "<group>"; };
 		9FEF2BE02685E796004AFACE /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
 		9FEF2BE22685E992004AFACE /* WAMApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAMApplication.h; sourceTree = "<group>"; };
+		9FEF2BE32685E9E8004AFACE /* WAMApplication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAMApplication.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				9FEF2BB82685E3AA004AFACE /* WeChat.entitlements */,
 				9FEF2BDA2685E5ED004AFACE /* MainMenu.xib */,
 				9FEF2BE22685E992004AFACE /* WAMApplication.h */,
+				9FEF2BE32685E9E8004AFACE /* WAMApplication.m */,
 			);
 			path = WeChat;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FEF2BE42685E9E8004AFACE /* WAMApplication.m in Sources */,
 				9FEF2BB72685E3AA004AFACE /* main.m in Sources */,
 				9FEF2BAC2685E3A9004AFACE /* AppDelegate.m in Sources */,
 			);

@@ -6,4 +6,5 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "WAMApplication.h"
+#import "AppDelegate.h"
