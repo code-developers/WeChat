@@ -58,6 +58,7 @@
 		9FEF2BE02685E796004AFACE /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
 		9FEF2BE22685E992004AFACE /* WAMApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAMApplication.h; sourceTree = "<group>"; };
 		9FEF2BE32685E9E8004AFACE /* WAMApplication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAMApplication.m; sourceTree = "<group>"; };
+		9FEF2BE52685EABF004AFACE /* WAMWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAMWebView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +122,7 @@
 				9FEF2BDA2685E5ED004AFACE /* MainMenu.xib */,
 				9FEF2BE22685E992004AFACE /* WAMApplication.h */,
 				9FEF2BE32685E9E8004AFACE /* WAMApplication.m */,
+				9FEF2BE52685EABF004AFACE /* WAMWebView.h */,
 			);
 			path = WeChat;
 			sourceTree = "<group>";
