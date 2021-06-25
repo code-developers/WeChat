@@ -3,6 +3,7 @@
 #import "WAMWebView.h"
 #import <AppKit/AppKit.h>
 #import <Foundation/Foundation.h>
+#import "Sparkle/Sparkle.h"
 
 @import WebKit;
 @import Sparkle;
