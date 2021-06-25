@@ -44,3 +44,30 @@ document.documentElement.appendChild(styleAdditions);
 function activateSearchField () {
     document.querySelector('input.input-search').focus();
 }
+
+function dispatch(target, eventType, char) {
+    var evt = document.createEvent("TextEvent");
+    evt.initTextEvent (eventType, true, true, window, char, 0, "en-US");
+    target.focus();
+    target.dispatchEvent(evt);
+}
+
+
+function triggerClick() {
+    var event = new MouseEvent('click', {
+                               'view': window,
+                               'bubbles': true,
+                               'cancelable': true
+                               });
+    document.querySelector(".icon.btn-icon.icon-send").dispatchEvent(event)
+}
+
+
+function newConversation () {
+document.querySelector('button.icon-chat').click();
+document.querySelector('input.input-search').focus();
+
+var header = document.querySelector('div.drawer-title');
+header.style.left = '0px';
+header.style.bottom = '12px';
+}
