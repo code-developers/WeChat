@@ -14,6 +14,7 @@
 		9FEF2BB72685E3AA004AFACE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF2BB62685E3AA004AFACE /* main.m */; };
 		9FEF2BC22685E3AA004AFACE /* WeChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF2BC12685E3AA004AFACE /* WeChatTests.m */; };
 		9FEF2BCD2685E3AA004AFACE /* WeChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF2BCC2685E3AA004AFACE /* WeChatUITests.m */; };
+		9FEF2BDB2685E5ED004AFACE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FEF2BDA2685E5ED004AFACE /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		9FEF2BC82685E3AA004AFACE /* WeChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FEF2BCC2685E3AA004AFACE /* WeChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatUITests.m; sourceTree = "<group>"; };
 		9FEF2BCE2685E3AA004AFACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FEF2BDA2685E5ED004AFACE /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				9FEF2BB52685E3AA004AFACE /* Info.plist */,
 				9FEF2BB62685E3AA004AFACE /* main.m */,
 				9FEF2BB82685E3AA004AFACE /* WeChat.entitlements */,
+				9FEF2BDA2685E5ED004AFACE /* MainMenu.xib */,
 			);
 			path = WeChat;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			files = (
 				9FEF2BB12685E3AA004AFACE /* Assets.xcassets in Resources */,
 				9FEF2BB42685E3AA004AFACE /* Main.storyboard in Resources */,
+				9FEF2BDB2685E5ED004AFACE /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
