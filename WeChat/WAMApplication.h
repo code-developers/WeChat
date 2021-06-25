@@ -6,8 +6,8 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#ifndef WAMApplication_h
-#define WAMApplication_h
+#import <Cocoa/Cocoa.h>
 
+@interface WAMApplication : NSApplication
 
-#endif /* WAMApplication_h */
+@end
