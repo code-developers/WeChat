@@ -14,6 +14,9 @@
 		9FEF2BC22685E3AA004AFACE /* WeChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF2BC12685E3AA004AFACE /* WeChatTests.m */; };
 		9FEF2BCD2685E3AA004AFACE /* WeChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF2BCC2685E3AA004AFACE /* WeChatUITests.m */; };
 		9FEF2BDB2685E5ED004AFACE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FEF2BDA2685E5ED004AFACE /* MainMenu.xib */; };
+		9FEF2BDD2685E788004AFACE /* inject.js in Resources */ = {isa = PBXBuildFile; fileRef = 9FEF2BDC2685E788004AFACE /* inject.js */; };
+		9FEF2BDF2685E791004AFACE /* noConnection.html in Resources */ = {isa = PBXBuildFile; fileRef = 9FEF2BDE2685E791004AFACE /* noConnection.html */; };
+		9FEF2BE12685E797004AFACE /* jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = 9FEF2BE02685E796004AFACE /* jquery.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		9FEF2BCC2685E3AA004AFACE /* WeChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatUITests.m; sourceTree = "<group>"; };
 		9FEF2BCE2685E3AA004AFACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FEF2BDA2685E5ED004AFACE /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		9FEF2BDC2685E788004AFACE /* inject.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = inject.js; sourceTree = "<group>"; };
+		9FEF2BDE2685E791004AFACE /* noConnection.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = noConnection.html; sourceTree = "<group>"; };
+		9FEF2BE02685E796004AFACE /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 		9FEF2BA92685E3A9004AFACE /* WeChat */ = {
 			isa = PBXGroup;
 			children = (
+				9FEF2BE02685E796004AFACE /* jquery.js */,
+				9FEF2BDE2685E791004AFACE /* noConnection.html */,
+				9FEF2BDC2685E788004AFACE /* inject.js */,
 				9FEF2BAA2685E3A9004AFACE /* AppDelegate.h */,
 				9FEF2BAB2685E3A9004AFACE /* AppDelegate.m */,
 				9FEF2BB02685E3AA004AFACE /* Assets.xcassets */,
@@ -232,9 +241,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FEF2BE12685E797004AFACE /* jquery.js in Resources */,
 				9FEF2BB12685E3AA004AFACE /* Assets.xcassets in Resources */,
+				9FEF2BDD2685E788004AFACE /* inject.js in Resources */,
 				9FEF2BB42685E3AA004AFACE /* Main.storyboard in Resources */,
 				9FEF2BDB2685E5ED004AFACE /* MainMenu.xib in Resources */,
+				9FEF2BDF2685E791004AFACE /* noConnection.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
