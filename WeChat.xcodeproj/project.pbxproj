@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F5CD0082685EF9D003AEDC2 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5CD0072685EF9D003AEDC2 /* Sparkle.framework */; };
 		9FEF2BAC2685E3A9004AFACE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF2BAB2685E3A9004AFACE /* AppDelegate.m */; };
 		9FEF2BB12685E3AA004AFACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FEF2BB02685E3AA004AFACE /* Assets.xcassets */; };
 		9FEF2BB42685E3AA004AFACE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEF2BB22685E3AA004AFACE /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F5CD0072685EF9D003AEDC2 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = SOURCE_ROOT; };
 		9FEF2BA72685E3A9004AFACE /* WeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FEF2BAA2685E3A9004AFACE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9FEF2BAB2685E3A9004AFACE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F5CD0082685EF9D003AEDC2 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +115,7 @@
 		9FEF2BA92685E3A9004AFACE /* WeChat */ = {
 			isa = PBXGroup;
 			children = (
+				9F5CD0072685EF9D003AEDC2 /* Sparkle.framework */,
 				9FEF2BE02685E796004AFACE /* jquery.js */,
 				9FEF2BDE2685E791004AFACE /* noConnection.html */,
 				9FEF2BDC2685E788004AFACE /* inject.js */,
@@ -451,6 +455,10 @@
 				CODE_SIGN_ENTITLEMENTS = WeChat/WeChat.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = WeChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -468,6 +476,10 @@
 				CODE_SIGN_ENTITLEMENTS = WeChat/WeChat.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = WeChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
